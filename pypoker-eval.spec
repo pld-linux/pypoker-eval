@@ -4,14 +4,13 @@ Name:		pypoker-eval
 Version:	126.0
 Release:	0.1
 License:	GPL
-Group:		Applications/Games
+Group:		Libraries/Python
 #orig. 125.0:	http://dl.sourceforge.net/pokersource/%{name}-%{version}.tar.gz
 Source0:	http://download.gna.org/underware/dists/%{name}-%{version}.tar.gz
 # Source0-md5:	33f482c627c48c63c711a2b1b2308a5e
 URL:		http://pokersource.sourceforge.net/
 BuildRequires:	poker-eval-devel
-BuildRequires:	python-devel
-BuildRequires:	rpm-pythonprov
+BuildRequires:	python-devel >= 2.3
 %pyrequires_eq	python-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -49,4 +48,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README COPYING NEWS
 %attr(755,root,root) %{py_sitedir}/pypokereval.so.*.*.*
-%{py_sitedir}/pokereval.py*
+%{py_sitedir}/pokereval.py[co]
