@@ -32,7 +32,8 @@ mapowanie ca³ego API biblioteki poker-eval.
 %setup -q
 
 %build
-%configure
+%configure \
+	--disable-static
 %{__make}
 
 %install
@@ -46,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README COPYING NEWS
+%doc AUTHORS ChangeLog NEWS README
 # '*' because of missing -avoid-version
 %attr(755,root,root) %{py_sitedir}/pypokereval.so*
 %{py_sitedir}/pokereval.py[co]
