@@ -23,9 +23,9 @@ caller is willing to have a higher level API and is not interested in
 a one to one mapping of the poker-eval API.
 
 %description -l pl
-Ten pakiet to pythonowy adapter dla narzêdzia poker-eval do psania
+Ten pakiet to pythonowy adapter dla narzêdzia poker-eval do pisania
 programów symuluj±cych lub analizuj±cych grê w pokera. Interfejs w
-pythonie jest w pewnym sensie ³atwiejszy ni¿ API w C. Zaklada ¿e
+pythonie jest w pewnym sensie ³atwiejszy ni¿ API w C. Zak³ada ¿e
 u¿ytkownik potrzebuje wysokopoziomowego API i nie interesuje go
 mapowanie ca³ej API biblioteki poker-eval.
 
