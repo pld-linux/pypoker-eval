@@ -24,9 +24,9 @@ a one to one mapping of the poker-eval API.
 %description -l pl
 Ten pakiet to pythonowy adapter dla narzêdzia poker-eval do pisania
 programów symuluj±cych lub analizuj±cych grê w pokera. Interfejs w
-pythonie jest w pewnym sensie ³atwiejszy ni¿ API w C. Zak³ada ¿e
+Pythonie jest w pewnym sensie ³atwiejszy ni¿ API w C. Zak³ada, ¿e
 u¿ytkownik potrzebuje wysokopoziomowego API i nie interesuje go
-mapowanie ca³ej API biblioteki poker-eval.
+mapowanie ca³ego API biblioteki poker-eval.
 
 %prep
 %setup -q
@@ -47,5 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README COPYING NEWS
-%attr(755,root,root) %{py_sitedir}/pypokereval.so.*.*.*
+# '*' because of missing -avoid-version
+%attr(755,root,root) %{py_sitedir}/pypokereval.so*
 %{py_sitedir}/pokereval.py[co]
