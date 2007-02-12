@@ -1,5 +1,5 @@
 Summary:	Python adaptor for poker-eval
-Summary(pl):	Pythonowy adapter dla poker-eval
+Summary(pl.UTF-8):   Pythonowy adapter dla poker-eval
 Name:		pypoker-eval
 Version:	126.0
 Release:	0.1
@@ -21,12 +21,12 @@ is somewhat simpler than the C API of poker-eval. It assumes that the
 caller is willing to have a higher level API and is not interested in
 a one to one mapping of the poker-eval API.
 
-%description -l pl
-Ten pakiet to pythonowy adapter dla narzêdzia poker-eval do pisania
-programów symuluj±cych lub analizuj±cych grê w pokera. Interfejs w
-Pythonie jest w pewnym sensie ³atwiejszy ni¿ API w C. Zak³ada, ¿e
-u¿ytkownik potrzebuje wysokopoziomowego API i nie interesuje go
-mapowanie ca³ego API biblioteki poker-eval.
+%description -l pl.UTF-8
+Ten pakiet to pythonowy adapter dla narzÄ™dzia poker-eval do pisania
+programÃ³w symulujÄ…cych lub analizujÄ…cych grÄ™ w pokera. Interfejs w
+Pythonie jest w pewnym sensie Å‚atwiejszy niÅ¼ API w C. ZakÅ‚ada, Å¼e
+uÅ¼ytkownik potrzebuje wysokopoziomowego API i nie interesuje go
+mapowanie caÅ‚ego API biblioteki poker-eval.
 
 %prep
 %setup -q
