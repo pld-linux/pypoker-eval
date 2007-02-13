@@ -1,5 +1,5 @@
 Summary:	Python adaptor for poker-eval
-Summary(pl.UTF-8):   Pythonowy adapter dla poker-eval
+Summary(pl.UTF-8):	Pythonowy adapter dla poker-eval
 Name:		pypoker-eval
 Version:	126.0
 Release:	0.1
